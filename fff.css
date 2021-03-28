@@ -1,0 +1,112 @@
+
+body {
+    color: #777;
+     background-image: url("static.gif");;
+     background-position: center;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding:auto;
+  margin:auto;
+  text-align: center;
+  vertical-align:middle;
+}
+
+.grid-container a {
+  text-align: center;
+  padding: inherit;
+}
+
+.grid-container img {
+  vertical-align: middle;
+  margin: auto;
+}
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+.header {
+     margin: 0;
+     color: #9400D3;
+     text-align: center;
+     padding: 2.5em 2em 0;
+     border-bottom: 1px solid #eee;
+ }
+    .header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        -webkit-text-stroke-width: 0.60px;
+        -webkit-text-stroke-color: white;
+
+         font-weight: bold;
+    }
+
+    .imagee img {
+      display: inline-block;
+
+
+    }
+     .header h2 {
+        font-weight: 500;
+        font-size: 35px;
+        color: #ffffff;
+        padding: 2px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: purple;
+        margin-top: 2px;
+    }
+    .header p {
+       color: #ffffff;
+       font-size: 20px;
+       background-color: #1f1f1f;
+       padding: 5px;
+       margin-top: 0;
+   }
+
+     .header a {
+       color: purple;
+       font-size: 20px;
+       background-color: 	#1f1f1f;
+       background-size: contain;
+       -webkit-text-stroke-width: 0.40px;
+       -webkit-text-stroke-color: white;
+       vertical-align: middle;
+       text-align: center;
+       margin: auto;
+       padding: 18px;
+       border: 3px groove	#FF1493;
+
+
+
+     }
+
+   a:hover {
+     background-color: #00FF00;
+     color: white;
+   }
+
+  .header p {
+     font-size: 25 px;
+   }
+
+img {
+  padding: 20px;
+  position: sticky;
+}
+
+footer{
+  padding: 30px;
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: purple;
